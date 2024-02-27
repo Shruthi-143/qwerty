@@ -16,6 +16,6 @@ jobs:
       run: |
         python -m venv pst-gti-artemis-venv
         source pst-gti-artemis-venv/bin/activate
-        python3 upload-helm-packages.py > testoutput.zip
+        python3 upload-helm-packages.py > output.tgz
         
         
