@@ -1,0 +1,14 @@
+name: pst-gti-artemis-validation
+on:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+jobs:
+  pst-gti-artemis:
+    runs-on: [ubuntu-latest]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
