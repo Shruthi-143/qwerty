@@ -3,7 +3,8 @@ name: Create Tar Archive
 on:
   push:
     branches:
-      - main  # Adjust the branch name if necessary
+    - main
+  workflow_dispatch:
 
 jobs:
   build:
